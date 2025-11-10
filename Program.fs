@@ -69,7 +69,7 @@ Reveal.initialize({{ hash: true, transition: 'fade' }});
 </html>
 """
 
-    let outputFile = "slides.html"
+    let outputFile = "index.html"
     File.WriteAllText(outputFile, htmlTemplate)
     printfn $"✅ Slides generated: {Path.GetFullPath(outputFile)}"
 
