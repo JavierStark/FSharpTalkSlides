@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "E3GiwJ0MzSvviE+7317LRNXJnql5Ko5Q+1C7/I1+/Om5wlNKj9FAdBDaTLuT49GpeBP8gyWnbxEl1/5GIOdsrA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\javie\\OneDrive\\Documentos\\Programming\\C#\\FSharpSlides\\FSharpSlides.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\javie\\.nuget\\packages\\fsharp.core\\7.0.403\\fsharp.core.7.0.403.nupkg.sha512",
+    "C:\\Users\\javie\\.nuget\\packages\\markdig\\0.43.0\\markdig.0.43.0.nupkg.sha512"
+  ],
+  "logs": []
+}

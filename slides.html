@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>F# Slides</title>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/reveal.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/theme/black.min.css'>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/reveal.min.js'></script>
+<script src='https://try.dot.net/scripts/trydotnet.js'></script>
+<style>
+.reveal pre code { font-size: 1.1em; }
+</style>
+</head>
+<body>
+<div class='reveal'>
+<div class='slides'>
+<section>
+<h1 id="slide-1-hello-f">Slide 1: Hello F#</h1>
+<p>Welcome to the presentation!</p>
+<pre><code class="language-fsharp">printfn &quot;Hello world from F#&quot;
+</code></pre>
+<hr />
+<h1 id="slide-2-lists-and-pipelines">Slide 2: Lists and Pipelines</h1>
+<p>You can even show simple data transformations:</p>
+<pre><code class="language-fsharp">[1..5]
+|&gt; List.map (fun x -&gt; x * x)
+|&gt; List.sum
+</code></pre>
+
+</section>
+</div>
+</div>
+<script>
+Reveal.initialize({ hash: true, transition: 'fade' });
+</script>
+</body>
+</html>
